@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 76px;
+    border-radius: 50%;
+    width: 116px;
+}
+.rightnav li a{
+    color: black;
+    text-decoration: none;
+    
+    
+    
+}
+
+.rightnav li{
+    list-style: none;
+    padding: 19px 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+.registerandlogin{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    cursor: pointer;
+}
+.leftnav{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+.rightnav{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    
+    
+}
+.searchbutton{
+    height: 28px;
+    width: 60px;
+    transition: color .5s linear;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.searchinput{
+    height: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.searchbutton ::before{
+    content: '';
+    position: absolute;
+    left:0;
+    right:-50px;
+    top:0;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #000000;
+    transform: translateX(-100%);
+}
+.searchbutton:hover::before{
+    transform: translateX(0);
+}
+.searchbutton:hover{
+    color: grey
+}
+.rightnav li a:hover{
+    text-decoration:underline dotted;
+
+}
+.searchbuttondiv{
+    padding: 20px;
+}
+hr.one{
+    height: 10px;
+    border: #000000;
+     
+}
+#moon1{
+    width: 30px;
+    cursor: pointer;
+}
